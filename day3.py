@@ -63,3 +63,21 @@
 #     count +=1
 
 # print(count)
+
+# # Write a program in Python to reverse a word.
+# word = "swayam"
+# reverse = ""
+# for i in reversed(range(len(word))):
+#     reverse += word[i]
+# print(reverse)
+
+# # Sorting an list using nested loops
+# li = [12,32,1,23,65,2,3,4]
+
+# for i in range(len(li) - 1):
+#     for j in range(i + 1 , len(li)):
+#         if li[i] > li[j]:
+#             temp = li[i]
+#             li[i] = li[j]
+#             li[j] = temp
+# print(li)
